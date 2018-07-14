@@ -1,0 +1,48 @@
+rect {
+	fill: green;
+	stroke-width:.5;
+	stroke:white;
+	opacity:0.9;
+}
+
+#title {
+  text-align: center;
+}
+
+.bar:hover {
+	fill: blue;
+}
+
+.d3-tip {
+	line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+div {
+	background-color: green;
+}
+
+.toolTip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid darkgreen;
+  padding: 14px;
+  text-align: center;
+  color: darkgreen;
+}
+
+.axis-text, #title {
+  fill: darkgreen;
+  font-family:"Roboto"
+}
+
+#title {
+  font-size: 50px;
+}
